@@ -47,14 +47,14 @@ main {
 }
 
 .header {
-  height: 150px;
+  height: 10vh;
   display: flex;
   flex-direction: row;
 }
 
 .avatar {
-  height: 100px;
-  width: 100px;
+  height: 10vh;
+  width: 10vh;
   background-image: url(./img/cube.jpg);
   background-size: contain;
   /* background-position: ; */
