@@ -5,6 +5,7 @@ p {
 
 h1 {
   font-size: 48px;
+  margin: 1.5vh 0;
 }
 
 h2 {
@@ -66,7 +67,7 @@ ul.top-nav__items {
 
 ul.top-nav__items li {
   display: inline;
-  margin-left: 5vw;
+  margin-left: 3vw;
   font-size: 1.5em;
 }
 
