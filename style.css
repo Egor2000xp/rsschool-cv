@@ -1,0 +1,86 @@
+p {
+  font-size: 2vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3vh;
+  margin: 1.5vh 0 2.5vh 0;
+}
+
+h2 {
+  font-size: 2.5vh;
+  margin: 1.5vh 0;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.main-wrapper {
+  margin: 0 auto;
+  max-width: 1100px;
+  height: 74vh;
+  background-color: beige;
+  padding: 5px 5vw;
+  box-shadow: 10px 5px 5px #aaa;
+  /* border: 1px solid red; */
+}
+
+.header-wrapper {
+  height: 10vh;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 5px 5vw;
+  background-color: #eee;
+  box-shadow: 10px 5px 5px #aaa;
+  z-index: 10;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.top-nav {
+  height: 40px;
+  display: block;
+  width: 80%;
+  /* border: 1px solid green; */
+}
+
+.header {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  height: 10vh;
+  width: 10vh;
+  background-image: url(./img/cube.jpg);
+  background-size: contain;
+  /* background-position: ; */
+}
+
+ul.top-nav__items {
+  margin: 0;
+
+}
+
+ul.top-nav__items li {
+  display: inline;
+  margin-left: 3vw;
+  font-size: 1.5em;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 10vh;
+  background-color: #aaa;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1vh 5vw;
+  box-shadow: 10px 5px 5px #aaa;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
